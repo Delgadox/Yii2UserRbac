@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b08b712c3f5b65c1d07ca805b955708",
+    "content-hash": "66fd7df106c8aa79f14f828689043f72",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -164,16 +164,16 @@
         },
         {
             "name": "dektrium/yii2-rbac",
-            "version": "1.0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dektrium/yii2-rbac.git",
-                "reference": "2dac3918af17178f2ba944d4338c3fcfa732d08c"
+                "reference": "a53c498847103ab1904699219b8d67c0ab63f000"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dektrium/yii2-rbac/zipball/2dac3918af17178f2ba944d4338c3fcfa732d08c",
-                "reference": "2dac3918af17178f2ba944d4338c3fcfa732d08c",
+                "url": "https://api.github.com/repos/dektrium/yii2-rbac/zipball/a53c498847103ab1904699219b8d67c0ab63f000",
+                "reference": "a53c498847103ab1904699219b8d67c0ab63f000",
                 "shasum": ""
             },
             "require": {
@@ -213,20 +213,20 @@
                 "yii2",
                 "yii2-rbac"
             ],
-            "time": "2018-03-26T12:33:41+00:00"
+            "time": "2018-10-31T02:08:49+00:00"
         },
         {
             "name": "dektrium/yii2-user",
-            "version": "0.9.14",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dektrium/yii2-user.git",
-                "reference": "8f2daea532f7efefc3f808e50d74a91c0de71ff4"
+                "reference": "b1681d788963726ab7e5f760af5b849047b0b257"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dektrium/yii2-user/zipball/8f2daea532f7efefc3f808e50d74a91c0de71ff4",
-                "reference": "8f2daea532f7efefc3f808e50d74a91c0de71ff4",
+                "url": "https://api.github.com/repos/dektrium/yii2-user/zipball/b1681d788963726ab7e5f760af5b849047b0b257",
+                "reference": "b1681d788963726ab7e5f760af5b849047b0b257",
                 "shasum": ""
             },
             "require": {
@@ -272,7 +272,7 @@
                 "yii2",
                 "yii2-user"
             ],
-            "time": "2018-04-03T12:24:41+00:00"
+            "time": "2019-02-22T12:40:32+00:00"
         },
         {
             "name": "doctrine/lexer",
@@ -4012,7 +4012,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "dektrium/yii2-user": 20,
+        "dektrium/yii2-rbac": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

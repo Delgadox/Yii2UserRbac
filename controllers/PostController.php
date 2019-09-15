@@ -28,16 +28,8 @@ class PostController extends Controller {
 			'access' => [
                 'class' => AccessControl::className(),
                 'only' => ['create', 'update'],
-                'ruleConfig' => [
-			        'class' => AccessRule::className(),
-			    ],
 				'rules' => [
-                    [
-                        'allow' => false,
-                        'verbs' => ['POST']
-                    ],
 					[
-
                         'roles'   => ['manager','Admin', 'Manager','1' ],
                         'allow'   => true,
 					],
